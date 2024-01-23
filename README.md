@@ -40,4 +40,18 @@ The program performs DES encryption on the input data, and the final encrypted o
 ## Example
 
 ```bash
+# Run the script
 python des_encryption.py
+
+# Provide plaintext as input
+Type a message to encrypt: Hello123
+
+# Choose plaintext format
+Type 1 for Plaintext - Type 2 for Hex: 1
+
+# Provide a 64-bit key
+Type the 64-bit key: 0011101010101100110101010101101011101100101010110111011001100010
+Type 1 for Plaintext - Type 2 for Hex: 1
+
+# The encrypted result will be saved in 'EncryptionResult.txt'
+
